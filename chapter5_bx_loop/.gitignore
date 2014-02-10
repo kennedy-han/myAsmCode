@@ -1,3 +1,5 @@
 # Ignore exe file in this directory 
 *.exe
+*.obj
+*.*~
 # Except this file !.gitignore
