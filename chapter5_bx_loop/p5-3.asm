@@ -8,6 +8,7 @@ codesg segment
 	mov dx,0
 	
 	mov bx,0006
+	mov ah,0
 	
 	mov cx,3
 	mov al,[bx]
