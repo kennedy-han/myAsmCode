@@ -1,4 +1,5 @@
 # Ignore exe file in this directory 
 *.exe
 *.obj
+*.DS_Store
 # Except this file !.gitignore
