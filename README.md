@@ -15,6 +15,8 @@ t --> detection point
 
 q --> question
 
+design --> course design
+
 for example:
 
 p5-3 means chapter5 program 3
