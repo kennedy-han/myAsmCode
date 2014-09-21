@@ -17,8 +17,9 @@ codesg segment
 
         ;与8做比较
       s:cmp byte ptr [bx],8
-        jne next  ;如果不相等跳转到next
-        inc ax  ;如果相等，则ax+1
+        je ok ;如果相等跳转到ok
+        jmp short next
+     ok:inc ax  ;如果相等，则ax+1
    next:inc bx
         loop s
 
